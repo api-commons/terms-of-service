@@ -1,10 +1,10 @@
 # API Commons — Terms of Service as an apis.yml property, illustrative example
 #
-# The same document as terms-of-service-example-1.yml inside the TermsOfService property envelope.
+# The same document as terms-of-service-example-1.yml inside the UsageTerms property envelope.
 # `url` points at the artifact path, the way sla/ is pointed at today.
 
 - name: Terms of Service
-  type: TermsOfService
+  type: UsageTerms
   description: The terms of service of the Example Weather API, harvested from its own page.
   url: terms/example-weather-api-terms-of-service.yml
   source_date: '2026-11-09'

@@ -17,7 +17,7 @@ consumer can compare providers on the terms rather than on the marketing.
 
 - **[terms-of-service-json-schema.yml](terms-of-service-json-schema.yml)** — the JSON Schema (2020-12).
 - **[terms-of-service-example-1.yml](terms-of-service-example-1.yml)** — a standalone document, as written to `all/<slug>/terms/<slug>-terms-of-service.yml`.
-- **[terms-of-service-example-2.yml](terms-of-service-example-2.yml)** — the same document inside the `TermsOfService` apis.yml property envelope.
+- **[terms-of-service-example-2.yml](terms-of-service-example-2.yml)** — the same document inside the `UsageTerms` apis.yml property envelope.
 - **[validate.py](validate.py)** — validates any document against the schema.
 
 Both examples describe **Example Weather API**, a fictional provider. The clauses are illustrative and are

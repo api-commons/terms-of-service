@@ -11,7 +11,7 @@ oneOf:
   description: A standalone document, as written to all/<slug>/terms/.
   type: object
   $ref: '#/$defs/document'
-- title: TermsOfService properties
+- title: UsageTerms properties
   description: One or more apis.yml property envelopes carrying the document under `data`.
   type: array
   minItems: 1
@@ -272,14 +272,14 @@ $defs:
     - type
     - url
     - data
-    description: The TermsOfService property as it appears inside an apis.yml / apis.json index.
+    description: The UsageTerms property as it appears inside an apis.yml / apis.json index.
     properties:
       name:
         type: string
         description: The name of the property as it appears in the index.
       type:
-        const: TermsOfService
-        description: The API Commons property type. Always TermsOfService.
+        const: UsageTerms
+        description: The API Commons property type. Always UsageTerms.
       description:
         type: string
         description: What this property covers.
