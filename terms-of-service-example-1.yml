@@ -1,0 +1,46 @@
+# API Commons — Terms of Service, illustrative example
+#
+# Example Weather API is fictional. These clauses are
+# illustrative and are not the terms of any real company.
+
+terms_of_service: 0.1.0
+provider: Example Weather API
+aid: example-weather-api
+url: https://weather.example.com/legal/api-terms
+source_date: '2026-11-09'
+x-apis-io-derivation:
+  synthetic: false
+  method: harvested
+  read: '2026-11-09'
+  tool: engine/business/harvest-business.py
+  model: claude-haiku-4-5
+effective_date: Last updated March 1, 2026
+permitted_use:
+- summary: Display forecasts in your application
+  text: You may use the API to retrieve and display weather data within your own applications.
+prohibited_use:
+- summary: Resale of raw data
+  text: You may not resell, sublicense or redistribute raw API data as a standalone data product.
+caching:
+  stance: conditional
+  max_duration: 24 hours
+  text: You may cache API responses for up to 24 hours to improve performance.
+redistribution:
+  stance: prohibited
+  text: You may not resell, sublicense or redistribute raw API data as a standalone data product.
+attribution:
+  required: true
+  text: Applications must display "Weather data by Example Weather API" wherever the data is shown.
+governing_law:
+  jurisdiction: State of Oregon
+  text: These Terms are governed by the laws of the State of Oregon.
+liability_cap:
+  text: Our total liability will not exceed the fees you paid us in the 12 months before the claim.
+termination_notice:
+  period: 30 days
+  text: We may terminate your access for convenience with 30 days written notice.
+change_notice:
+  period: 14 days
+  text: We will post changes to these Terms at least 14 days before they take effect.
+rate_or_usage_limits_referenced:
+  text: Your use is subject to the rate limits described in our documentation.
